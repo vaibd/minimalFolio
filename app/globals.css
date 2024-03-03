@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply max-w-5xl lg:mx-auto p-5 md:px-10 xl:px-0 w-full;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .content-z-index {
+    @apply z-30;
+  }
+
+  .custom-hover {
+    @apply hover:bg-neutral-800/5 !important;
+  }
+
+  .custom-hover-dark {
+    @apply dark:hover:bg-neutral-100/5 !important;
+  }
+
+  .heading-text {
+    @apply text-5xl max-md:text-4xl;
+  }
+}
