@@ -12,3 +12,8 @@ export type project = {
   year: string;
   languages: languages[];
 };
+
+export type TimelineContainerProps = {
+  title: string;
+  subTitle: string;
+};

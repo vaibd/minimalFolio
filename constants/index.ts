@@ -58,7 +58,8 @@ export const projects = [
   {
     logo: '/assets/project-logo/vault.png',
     title: 'Vault (Including admin panel)',
-    description: 'Student loan benefit and financial wellness platform. Vault provides a universal view of employee student loans, repayment plans, student loan refinance options, and more.',
+    description:
+      'Student loan benefit and financial wellness platform. Vault provides a universal view of employee student loans, repayment plans, student loan refinance options, and more.',
     projectUrl: 'https://get.vault.co/',
     year: 'July 2022',
     languages: [
@@ -149,6 +150,54 @@ export const projects = [
       {
         name: 'MongoDB',
         color: 'text-sky-600',
+      },
+    ],
+  },
+];
+
+export const timeline = [
+  {
+    year: 2022,
+    events: [
+      {
+        title: 'Associate Software Engineer',
+        subTitle: 'Soft Prodigy',
+        icon: 'DesktopIcon',
+      },
+      {
+        title: 'Internship - ReactJS',
+        subTitle: 'Soft Prodigy',
+        icon: 'DesktopIcon',
+      },
+    ],
+  },
+  {
+    year: 2020,
+    events: [
+      {
+        title: 'Masters in Computer Applications',
+        subTitle: 'Uttarakhand University',
+        icon: 'BackpackIcon',
+      },
+    ],
+  },
+  {
+    year: 2017,
+    events: [
+      {
+        title: 'Bachelors in Computer Applications',
+        subTitle: 'Amrapali Institute of Technology and Sciences',
+        icon: 'BackpackIcon',
+      },
+    ],
+  },
+  {
+    year: 2016,
+    events: [
+      {
+        title: 'Senior Secondary',
+        subTitle: 'St. Theresa Senior Secondary School',
+        icon: 'BackpackIcon',
       },
     ],
   },

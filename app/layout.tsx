@@ -30,7 +30,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange>
           <Header />
-          <main className='wrapper flex-center flex-col content-z-index '>
+          <main className='wrapper flex-center flex-col content-z-index'>
             {children}
           </main>
           <Footer />

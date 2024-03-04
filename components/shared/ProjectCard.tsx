@@ -1,6 +1,5 @@
 import {
   CircleIcon,
-  StarIcon,
   GitHubLogoIcon,
   GlobeIcon,
   CalendarIcon,
@@ -40,7 +39,7 @@ export function ProjectCard({
 }: project) {
   return (
     <Card
-      className='custom-hover custom-hover-dark inline-block mb-6 
+      className='custom-hover inline-block mb-6 
     hover:scale-105 transition duration-500
     '>
       <CardHeader className='grid grid-cols-[1fr_110px] items-start gap-4 space-y-0'>
