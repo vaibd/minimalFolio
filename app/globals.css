@@ -30,4 +30,20 @@
   .heading-text {
     @apply text-5xl max-md:text-4xl;
   }
+
+  .active {
+    @apply bg-neutral-800/5;
+  }
+
+  .active-dark {
+    @apply dark:bg-neutral-100/5;
+  }
+
+  .background-color {
+    @apply bg-white dark:bg-neutral-950;
+  }
+
+  .dim-text {
+    @apply text-neutral-500 dark:text-neutral-400;
+  }
 }

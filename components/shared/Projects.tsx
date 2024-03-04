@@ -3,8 +3,8 @@ import { ProjectCard } from './ProjectCard';
 
 const Projects = () => {
   return (
-    <div className='-mt-[7rem]'>
-      <h1 className='heading-text font-bold mb-3 text-center'>Projects</h1>
+    <>
+      <h1 className='mt-6 heading-text font-bold mb-3 text-center'>Projects</h1>
       <p className='mb-16 text-center'>
         Explore some of the projects I worked on in the past.
       </p>
@@ -22,7 +22,7 @@ const Projects = () => {
           />
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

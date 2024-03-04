@@ -17,7 +17,6 @@ const toggleTheme = (theme: string | undefined) =>
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme();
-  const loaded = useLoaded();
 
   return (
     <TooltipProvider>
@@ -28,15 +27,8 @@ export function ModeToggle() {
             size='icon'
             onClick={() => setTheme(toggleTheme(theme))}
             className='rounded-full custom-hover custom-hover-dark'>
-            {loaded ? (
-              theme === 'light' ? (
-                <MoonIcon className='h-[1.23rem] w-[1.23rem] text-black' />
-              ) : (
-                <SunIcon className='h-[1.23rem] w-[1.23rem] text-white' />
-              )
-            ) : (
-              <ReloadIcon className='mr-2 h-4 w-4 animate-spin' />
-            )}
+            <MoonIcon className='block dark:hidden h-[1.23rem] w-[1.23rem] text-black' />
+            <SunIcon className='hidden dark:block h-[1.23rem] w-[1.23rem] text-white' />
           </Button>
         </TooltipTrigger>
         <TooltipContent>

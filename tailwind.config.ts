@@ -17,7 +17,6 @@ const config = {
         '2xl': '1400px',
       },
     },
-    // safelist: ['text-sky-600', 'text-cyan-600'],
     extend: {
       keyframes: {
         'accordion-down': {

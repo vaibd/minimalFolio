@@ -3,7 +3,7 @@ import { LazyMotion, domAnimation, m } from 'framer-motion';
 
 const NoiseAnimation = () => {
   return (
-    <div className='overflow-hidden h-screen w-screen absolute z-0 block top-0 bottom-0 right-0 '>
+    <div className='overflow-hidden h-dvh w-screen absolute z-0 block top-0 bottom-0 right-0 '>
       <LazyMotion features={domAnimation}>
         <m.div
           initial={{ transform: 'translateX(-10%) translateY(-10%)' }}

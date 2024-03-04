@@ -1,6 +1,7 @@
 const Landing = () => {
   return (
-    <div className='text-center content-z-index h-screen pt-[18%] max-md:pt-[6rem] max-[854px]:pt-[4rem] max-[375px]:pt-[1rem]'>
+    // <div className='text-center content-z-index h-dvh pt-[18%] max-md:pt-[6rem] max-[854px]:pt-[4rem] max-[375px]:pt-[1rem]'>
+    <div className='text-center content-z-index h-dvh flex items-center'>
     <div className='content-z-index relative'>
       <h1 className='text-9xl max-md:text-6xl font-bold mb-4'>
         Hi, I'm Vaibhav.
