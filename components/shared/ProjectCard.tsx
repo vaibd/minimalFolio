@@ -27,7 +27,7 @@ const colorVariants = {
   Ruby: 'text-rose-500',
   EmberJS: 'text-red-300',
   MongoDB: 'text-teal-300',
-}
+};
 
 export function ProjectCard({
   logo,
@@ -38,7 +38,6 @@ export function ProjectCard({
   year,
   languages,
 }: project) {
-
   return (
     <Card
       className='custom-hover custom-hover-dark inline-block mb-6 
@@ -65,17 +64,22 @@ export function ProjectCard({
       <CardContent>
         <div className='flex justify-between'>
           <div className='flex space-x-4 text-sm text-muted-foreground'>
-            {languages.map((language, i) => (
-              <div key={i} className='flex items-center'>
-               
-                <CircleIcon className={`mr-1 h-3 w-3 ${colorVariants[language.name as keyof typeof colorVariants]}`} />
-                {language.name}
-              </div>
-            ))}
+            <div className='grid grid-cols-3 max-sm:grid-cols-2 gap-4'>
+              {languages.map((language, i) => (
+                <div key={i} className='flex items-center'>
+                  <CircleIcon
+                    className={`mr-1 h-3 w-3 ${
+                      colorVariants[language.name as keyof typeof colorVariants]
+                    }`}
+                  />
+                  {language.name}
+                </div>
+              ))}
 
-            <div className='flex items-center'>
-              <CalendarIcon className='mr-2' />
-              {year}
+              <div className='flex items-center col-span-2'>
+                <CalendarIcon className='mr-2' />
+                {year}
+              </div>
             </div>
           </div>
 
@@ -100,6 +104,8 @@ export function ProjectCard({
     </Card>
   );
 }
- {/* text-sky-600 
+{
+  /* text-sky-600 
 
-*/}
+*/
+}
