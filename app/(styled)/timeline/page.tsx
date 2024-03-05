@@ -1,7 +1,7 @@
 import TimelineContainer from '@/components/shared/Timeline/TimelineContainer';
 import TimelineDate from '@/components/shared/Timeline/TimelineDate';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { timeline } from '@/constants';
+import { timeline } from '@/constants/timeline';
 
 const Timeline = () => {
   return (

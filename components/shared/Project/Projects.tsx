@@ -1,5 +1,5 @@
-import { projects } from '@/constants';
 import { ProjectCard } from './ProjectCard';
+import { projectList } from '@/constants/projectList';
 
 const Projects = () => {
   return (
@@ -9,7 +9,7 @@ const Projects = () => {
         Explore some of the projects I worked on in the past.
       </p>
       <div className='w-full columns-1 gap-6 md:columns-2'>
-        {projects.map((project, index) => (
+        {projectList.map((project, index) => (
           <ProjectCard
             key={index}
             logo={project.logo}
