@@ -1,5 +1,5 @@
 import React from 'react';
-import { ModeToggle } from './ThemeSwitcher';
+import { ModeToggle } from '../ThemeSwitcher';
 import { headerLinks } from '@/constants';
 import NavLink from './NavLink';
 

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
-import Footer from '@/components/shared/Footer';
-import Header from '@/components/shared/Header';
+import Header from '@/components/shared/View/Header';
+import Footer from '@/components/shared/View/Footer';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -12,7 +12,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Vaibhav Dalakoti',
+  title: {
+    template: '%s | Vaibhav',
+    default: 'Vaibhav',
+  },
   description: 'Personal website of Vaibhav Dalakoti',
 };
 

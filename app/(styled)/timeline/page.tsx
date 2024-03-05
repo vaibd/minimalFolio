@@ -7,7 +7,7 @@ const Timeline = () => {
   return (
     <>
       <div className='mb-10 text-center'>
-        <h1 className='text-4xl font-bold'>Experiences throughout time</h1>
+        <h1 className='heading-text'>Experiences throughout time</h1>
         <p className='text-lg mt-4'>
           Everything I've done, over passage of time.
         </p>
