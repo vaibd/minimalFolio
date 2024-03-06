@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
+  .bg-color {
+    @apply  dark:bg-[#020202] ;
+  }
+
   .wrapper {
     @apply max-w-5xl lg:mx-auto p-5 md:px-10 xl:px-0 w-full;
   }

@@ -12,7 +12,7 @@ export const headerItems = [
     route: '/tools',
   },
   {
-    label: 'Timeline',
-    route: '/timeline',
+    label: 'Contact',
+    route: '/contact',
   },
 ];
