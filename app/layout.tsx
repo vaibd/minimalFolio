@@ -4,6 +4,7 @@ import "@/styles/globals.css"
 import { ThemeProvider } from '@/components/theme-provider';
 import Header from '@/components/shared/View/Header';
 import Footer from '@/components/shared/View/Footer';
+import { Toaster } from '@/components/ui/toaster';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -36,6 +37,7 @@ export default function RootLayout({
           <main className='wrapper flex-center flex-col content-z-index'>
             {children}
           </main>
+          <Toaster />
           <Footer />
         </ThemeProvider>
       </body>

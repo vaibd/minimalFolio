@@ -1,3 +1,5 @@
+export const myName = 'Vaibhav Dalakoti';
+
 export const hero = {
   heading: 'Hi, I am Vaibhav.',
   heading2: 'A Front End Engineer.',
@@ -14,3 +16,18 @@ export const about = {
   casualLife:
     'I love to play cricket and I am a big fan of cricket. I love to watch cricket and I also love to play cricket. I also love to watch movies and web series. I love to travel and explore new places. I love to spend time with my family and friends.',
 };
+
+export const socials = [
+  {
+    name: 'Email',
+    url: 'mailto:vaibhavdalakoti@gmail.com',
+  },
+  {
+    name: 'LinkedIn',
+    url: 'http://linkedin.com/in/vaibd',
+  },
+  {
+    name: 'GitHub',
+    url: 'http://github.com/vaibd',
+  },
+];

@@ -60,6 +60,12 @@ export const tools = [
         description: 'A free and open-source web browser developed by Google.',
         link: 'https://www.chromium.org/',
       },
+      {
+        name: 'GitHub',
+        logo: '/assets/tools-logo/github.webp',
+        description:
+          'A provider of Internet hosting for software development and version control using Git.',
+      }
     ],
   },
   {

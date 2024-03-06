@@ -10,9 +10,5 @@ export const headerItems = [
   {
     label: 'Tools',
     route: '/tools',
-  },
-  {
-    label: 'Contact',
-    route: '/contact',
-  },
+  }
 ];
