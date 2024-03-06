@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <>
-      <Card className='w-[55dvw] p-6'>
+      <Card className='p-6 max-sm:p-3'>
         <CardHeader className='heading-text text-center'>{heading}</CardHeader>
         <CardContent className='grid gap-1'>
           {[professionalInfo, personalInfo, casualLife].map((info, index) => {
@@ -27,7 +27,7 @@ const About = () => {
         </CardContent>
       </Card>
 
-      <Card className='w-[55dvw] mt-10'>
+      <Card className='mt-8 p-6 max-sm:p-3'>
         <CardHeader className='pb-3'>
           <CardTitle className='text-xl'>Experiences throughout time</CardTitle>
           <p>Everything I've done, over passage of time.</p>

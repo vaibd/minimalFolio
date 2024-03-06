@@ -1,6 +1,4 @@
-'use client';
-
-import { Button } from '@/components/ui/button';
+import GoBack from '@/components/shared/Buttons/GoBack';
 import {
   Card,
   CardDescription,
@@ -8,14 +6,13 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { useRouter } from 'next/navigation';
+
 
 export default function NotFound() {
-  const router = useRouter();
 
   return (
     <div className='flex items-center justify-center h-dvh'>
-      <Card className='w-[420px] border-none'>
+      <Card className='w-[420px]'>
         <CardHeader className='text-center'>
           <CardTitle className='lg:text-7xl text-4xl'>404</CardTitle>
           <CardDescription>
@@ -23,7 +20,7 @@ export default function NotFound() {
           </CardDescription>
         </CardHeader>
         <CardFooter className='flex justify-center'>
-          <Button onClick={() => router.back()}>Go Back</Button>
+          <GoBack>Go Back</GoBack>
         </CardFooter>
       </Card>
     </div>
