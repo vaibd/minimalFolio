@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='mt-16 grid grid-cols-3 max-sm:grid-cols-1 gap-6 wrapper max-sm:text-center '>
       <div className='col-span-2 pl-16 max-sm:pl-0'>
         <h3 className='my-2'>Designed & Built by {myName}</h3>
-        <p className='mb-2'>Licensed under GPL-3.0.</p>
+        <p className='mb-2'>Licensed under MIT.</p>
         <p className='mb-6'>&copy; {currentYear}</p>
       </div>
 
