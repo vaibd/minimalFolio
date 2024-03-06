@@ -13,7 +13,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { project } from '@/types/types';
+import { Project } from '@/types/types';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -36,7 +36,7 @@ export function ProjectCard({
   gitHubUrl,
   year,
   languages,
-}: project) {
+}: Project) {
   return (
     <Card
       className='custom-hover inline-block mb-6 
@@ -102,9 +102,4 @@ export function ProjectCard({
       </CardContent>
     </Card>
   );
-}
-{
-  /* text-sky-600 
-
-*/
 }
