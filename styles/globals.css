@@ -4,7 +4,7 @@
 
 @layer utilities {
   .bg-color {
-    @apply  dark:bg-[#020202] ;
+    @apply dark:bg-[#020202];
   }
 
   .wrapper {

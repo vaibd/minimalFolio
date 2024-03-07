@@ -1,14 +1,14 @@
 export const headerItems = [
   {
-    label: 'Home',
-    route: '/',
+    label: "Home",
+    route: "/",
   },
   {
-    label: 'About',
-    route: '/about',
+    label: "About",
+    route: "/about",
   },
   {
-    label: 'Tools',
-    route: '/tools',
-  }
+    label: "Tools",
+    route: "/tools",
+  },
 ];

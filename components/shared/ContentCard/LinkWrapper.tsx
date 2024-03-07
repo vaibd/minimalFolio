@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 type LinkWrapperProps = {
   children: React.ReactNode;
@@ -6,7 +6,7 @@ type LinkWrapperProps = {
 };
 
 const LinkWrapper = ({ children, link }: LinkWrapperProps) => {
-  return <div onClick={() => window.open(link, '_blank')}>{children}</div>;
+  return <div onClick={() => window.open(link, "_blank")}>{children}</div>;
 };
 
 export default LinkWrapper;

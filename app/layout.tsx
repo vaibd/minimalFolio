@@ -1,23 +1,23 @@
-import type { Metadata } from 'next';
-import { Poppins } from 'next/font/google';
-import "@/styles/globals.css"
-import { ThemeProvider } from '@/components/theme-provider';
-import Header from '@/components/shared/View/Header';
-import Footer from '@/components/shared/View/Footer';
-import { Toaster } from '@/components/ui/toaster';
+import type { Metadata } from "next";
+import { Poppins } from "next/font/google";
+import "@/styles/globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import Header from "@/components/shared/View/Header";
+import Footer from "@/components/shared/View/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-poppins',
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Vaibhav',
-    default: 'Vaibhav',
+    template: "%s | Vaibhav",
+    default: "Vaibhav",
   },
-  description: 'Personal website of Vaibhav Dalakoti',
+  description: "Personal website of Vaibhav Dalakoti",
 };
 
 export default function RootLayout({
@@ -26,15 +26,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body className={`${poppins.className} bg-color relative`}>
         <ThemeProvider
-          attribute='class'
-          defaultTheme='system'
+          attribute="class"
+          defaultTheme="system"
           enableSystem
-          disableTransitionOnChange>
+          disableTransitionOnChange
+        >
           <Header />
-          <main className='wrapper flex-center flex-col content-z-index'>
+          <main className="wrapper flex-center flex-col content-z-index">
             {children}
           </main>
           <Toaster />
