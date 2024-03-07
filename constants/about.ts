@@ -9,6 +9,8 @@ export const hero = {
 
 export const about = {
   heading: 'Hi, I am Vaibhav Dalakoti!',
+
+  
   professionalInfo:
     'A passionate Full Stack Software Engineer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Nextjs and some other cool libraries and frameworks.',
   personalInfo:
