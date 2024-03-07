@@ -26,7 +26,7 @@ const page = () => {
                     logo={tool.logo}
                     title={tool.name}
                     description={tool.description}
-                    link={tool.link}
+                    link={tool.link ? tool.link : ""}
                   />
                 );
               })}

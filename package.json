@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "preview": "next build && next start",
     "lint": "next lint",
-    "format": "prettier --check --ignore-path .gitignore .",
-    "format:fix": "prettier --write --ignore-path .gitignore ."
+    "lint-staged": "lint-staged",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit && echo ",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.0.6",
