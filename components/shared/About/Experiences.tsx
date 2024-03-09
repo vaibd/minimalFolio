@@ -19,6 +19,7 @@ const Experiences = ({ timeline }: ExperiencesProps) => {
                 key={index}
                 title={event.title}
                 subTitle={event.subTitle}
+                type={event.type}
               />
             ))}
           </div>

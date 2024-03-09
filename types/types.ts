@@ -23,6 +23,7 @@ export type Tools = {
 export type TimelineContainerProps = {
   title: string;
   subTitle: string;
+  type?: string;
 };
 
 export type ChildrenProps = {
@@ -48,9 +49,6 @@ export type SkillsProps = {
 export type ExperiencesProps = {
   timeline: {
     year: number;
-    events: {
-      title: string;
-      subTitle: string;
-    }[];
+    events: TimelineContainerProps[];
   }[];
 };
