@@ -1,15 +1,9 @@
-"use client";
-
-import React from "react";
 import { ModeToggle } from "./ThemeSwitcher";
 import NavLink from "./NavLink";
 import { headerItems } from "@/constants/headerItems";
-import { Button } from "@/components/ui/button";
-import { useToast } from "@/components/ui/use-toast";
+import ContactBtn from "../Contact/ContactBtn";
 
 const Header = () => {
-  const { toast } = useToast();
-
   return (
     <header className="fixed z-40 container right-0 left-0 w-full">
       <nav className="relative mx-auto z-40 flex flex-row justify-center items-center py-3">
@@ -19,19 +13,9 @@ const Header = () => {
               <NavLink route={link.route} label={link.label} />
             </li>
           ))}
-          {/* <div className='pr-2 max-sm:pl-2 logo cursor-pointer'>Contact</div> */}
-          <Button
-            variant="ghost"
-            className="rounded-full text-md font-normal	 p-2 text-black dark:text-white"
-            onClick={() =>
-              toast({
-                title: "Comming soon!",
-                description: "Underwork!",
-              })
-            }
-          >
-            Contact
-          </Button>
+
+          <ContactBtn>Contact</ContactBtn>
+
           <div className="pr-2 max-sm:pl-2 logo cursor-pointer">
             <ModeToggle />
           </div>

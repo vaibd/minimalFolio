@@ -42,4 +42,8 @@
   .dim-text {
     @apply text-neutral-500 dark:text-neutral-400;
   }
+
+  .hover-invert-colors {
+    @apply hover:fill-white dark:hover:fill-black hover:bg-current transition-all duration-300 ease-in-out
+  }
 }
