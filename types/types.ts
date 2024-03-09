@@ -28,3 +28,29 @@ export type TimelineContainerProps = {
 export type ChildrenProps = {
   children: React.ReactNode;
 };
+
+export type IntroductionProps = {
+  about: {
+    heading: string;
+    professionalInfo: string;
+    personalInfo: string;
+    casualLife: string;
+  };
+};
+
+export type SkillsProps = {
+  skills: {
+    name: string;
+    icon: string;
+  }[];
+};
+
+export type ExperiencesProps = {
+  timeline: {
+    year: number;
+    events: {
+      title: string;
+      subTitle: string;
+    }[];
+  }[];
+};

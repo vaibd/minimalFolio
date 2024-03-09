@@ -17,6 +17,89 @@ export const about = {
     "I love to play cricket and I am a big fan of cricket. I love to watch cricket and I also love to play cricket. I also love to watch movies and web series. I love to travel and explore new places. I love to spend time with my family and friends.",
 };
 
+export const skills = [
+  {
+    name: "ReactJS",
+    icon: "/assets/tech-logo/react.webp",
+  },
+  {
+    name: "NextJS",
+    icon: "/assets/tech-logo/nextjs.png",
+  },
+  {
+    name: "ShadCN",
+    icon: "/assets/tech-logo/shadcn.webp",
+  },
+  {
+    name: "NodeJS",
+    icon: "/assets/tech-logo/nodejs.webp",
+  },
+  {
+    name: "TypeScript",
+    icon: "/assets/tech-logo/typescript.webp",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "/assets/tech-logo/tailwindcss.webp",
+  },
+  {
+    name: "MongoDB",
+    icon: "/assets/tech-logo/mongodb.webp",
+  },
+  {
+    name: "Redux (Toolkit, Saga)",
+    icon: "/assets/tech-logo/redux.webp",
+  },
+];
+
+export const timeline = [
+  {
+    year: 2022,
+    events: [
+      {
+        title: "Associate Software Engineer",
+        subTitle: "Soft Prodigy",
+        icon: "DesktopIcon",
+      },
+      {
+        title: "Internship - ReactJS",
+        subTitle: "Soft Prodigy",
+        icon: "DesktopIcon",
+      },
+    ],
+  },
+  {
+    year: 2020,
+    events: [
+      {
+        title: "Masters in Computer Applications",
+        subTitle: "Uttarakhand University",
+        icon: "BackpackIcon",
+      },
+    ],
+  },
+  {
+    year: 2017,
+    events: [
+      {
+        title: "Bachelors in Computer Applications",
+        subTitle: "Amrapali Institute of Technology and Sciences",
+        icon: "BackpackIcon",
+      },
+    ],
+  },
+  {
+    year: 2016,
+    events: [
+      {
+        title: "Senior Secondary",
+        subTitle: "St. Theresa Senior Secondary School",
+        icon: "BackpackIcon",
+      },
+    ],
+  },
+];
+
 export const socials = [
   {
     name: "Email",
