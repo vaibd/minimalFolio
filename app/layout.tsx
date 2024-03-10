@@ -7,12 +7,20 @@ import Footer from "@/components/shared/View/Footer";
 import { Toaster } from "@/components/ui/toaster";
 import { Analytics } from "@vercel/analytics/react";
 import { siteConfig } from "@/config/site";
+import type { Viewport } from "next";
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
 });
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
+};
 
 export const metadata: Metadata = {
   title: {
@@ -29,10 +37,7 @@ export const metadata: Metadata = {
     },
   ],
   creator: siteConfig.author,
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
+  metadataBase: new URL(siteConfig.url),
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -40,14 +45,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 905,
-        height: 564,
-        alt: "Home Page Image",
-      },
-    ],
+    images: siteConfig.ogImage,
   },
   twitter: {
     card: "summary_large_image",
