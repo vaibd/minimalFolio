@@ -7,7 +7,6 @@ const Email = (props: IconProps) => {
       width={props?.width || "24"}
       height={props?.height || "24"}
       data-icon="email"
-      className={props?.className}
       viewBox="0 0 128 96"
       {...props}
     >
