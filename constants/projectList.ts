@@ -4,7 +4,7 @@ export const projectList = [
     title: "MinimalFolio",
     description:
       "You're currently browsing it. At present, it's built using NextJS, with component styling handled by shadcn and Tailwind CSS.",
-    projectUrl: "https://google.com",
+    projectUrl: "https://vaibd.vercel.app/",
     gitHubUrl: "https://github.com/vaibd/minimalfolio",
     year: "Jan 2024",
     languages: [
