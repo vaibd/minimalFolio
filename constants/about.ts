@@ -10,11 +10,11 @@ export const hero = {
 export const about = {
   heading: "Hi, I am Vaibhav Dalakoti!",
   professionalInfo:
-    "A passionate Full Stack Software Engineer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Nextjs and some other cool libraries and frameworks.",
+    "A passionate Front End Engineer 🚀 having an experience of building Web applications with Reactjs and Nextjs. I enjoy creating beautiful and easy to use web applications that connect with users. I am always looking for new opportunities to grow and collaborate on exciting projects.",
   personalInfo:
-    "I am a self-taught developer and I love to learn new things. I am a quick learner and I am always ready to learn new technologies. I am a team player and I love to work in a team. I am a good communicator and I can easily communicate with the team and clients.",
+    "Started my journey in Computer Science at college, quickly learning and adopting Javascript and Linux. Then decided to pursue a career in web development.",
   casualLife:
-    "I love to play cricket and I am a big fan of cricket. I love to watch cricket and I also love to play cricket. I also love to watch movies and web series. I love to travel and explore new places. I love to spend time with my family and friends.",
+    "When the dust settles, my life is all about sharing laughs with friends and family also, watching movies, anime and series. You may also find me doing astrophotography at night.",
 };
 
 export const skills = [
