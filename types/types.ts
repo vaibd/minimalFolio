@@ -58,3 +58,14 @@ export type IconProps = {
   height?: string;
   className?: string;
 };
+
+export type SiteConfig = {
+  name: string;
+  description: string;
+  author: string;
+  url: string;
+  ogImage: string;
+  links: {
+    github: string;
+  };
+};

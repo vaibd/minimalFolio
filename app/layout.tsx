@@ -6,6 +6,7 @@ import Header from "@/components/shared/View/Header";
 import Footer from "@/components/shared/View/Footer";
 import { Toaster } from "@/components/ui/toaster";
 import { Analytics } from "@vercel/analytics/react";
+import { siteConfig } from "@/config/site";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -15,10 +16,52 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Vaibhav",
-    default: "Vaibhav",
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
   },
-  description: "Personal website of Vaibhav Dalakoti",
+  description: siteConfig.description,
+  category: "portfolio",
+  keywords: ["Next.js", "React", "Tailwind CSS", "ShadCn", "Radix UI"],
+  authors: [
+    {
+      name: siteConfig.author,
+      url: siteConfig.url,
+    },
+  ],
+  creator: siteConfig.author,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteConfig.url,
+    title: siteConfig.name,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 905,
+        height: 564,
+        alt: "Home Page Image",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: siteConfig.ogImage,
+    creator: siteConfig.author,
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: `${siteConfig.url}/site.webmanifest`,
 };
 
 export default function RootLayout({

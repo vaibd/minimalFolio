@@ -1,6 +1,6 @@
 import { ModeToggle } from "./ThemeSwitcher";
 import NavLink from "./NavLink";
-import { headerItems } from "@/constants/headerItems";
+import { headerItems } from "@/config/headerItems";
 import ContactBtn from "../Contact/ContactBtn";
 
 const Header = () => {
