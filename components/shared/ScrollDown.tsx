@@ -41,7 +41,7 @@ const ScrollDown = () => {
           <p className="contents cursor-pointer">
             <span className="max-md:hidden">Scroll down&nbsp;</span>
             <span className="md:hidden">Swipe Up&nbsp;</span>
-            for more
+            for Projects
             <ChevronDownIcon className="w-8 h-8 m-auto max-md:rotate-180" />
           </p>
         </Link>

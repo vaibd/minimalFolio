@@ -1,4 +1,5 @@
 "use client";
+
 import { LazyMotion, domAnimation, m } from "framer-motion";
 
 const NoiseAnimation = () => {

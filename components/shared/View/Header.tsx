@@ -1,7 +1,6 @@
 import { ModeToggle } from "./ThemeSwitcher";
 import NavLink from "./NavLink";
 import { headerItems } from "@/config/headerItems";
-import ContactBtn from "../Contact/ContactBtn";
 
 const Header = () => {
   return (
@@ -13,8 +12,6 @@ const Header = () => {
               <NavLink route={link.route} label={link.label} />
             </li>
           ))}
-
-          <ContactBtn>Contact</ContactBtn>
 
           <div className="pr-2 max-sm:pl-2 logo cursor-pointer">
             <ModeToggle />

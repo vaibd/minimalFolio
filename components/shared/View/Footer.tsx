@@ -1,8 +1,6 @@
 import { myName, socials } from "@/constants/about";
 import React from "react";
 import { GetIcons } from "./IconProvider";
-import ContactBtn from "../Contact/ContactBtn";
-import Message from "@/components/icons/Message";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,12 +20,6 @@ const Footer = () => {
             <GetIcons iconName={social.name} />
           </a>
         ))}
-
-        <ContactBtn className="p-0">
-          <div className="rounded-full	border-current border-2 w-10 h-10 flex-center fill-current hover-invert-colors">
-            <Message />
-          </div>
-        </ContactBtn>
       </div>
 
       <div className="col-span-2 pt-10">
