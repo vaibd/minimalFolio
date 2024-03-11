@@ -1,4 +1,5 @@
 import { hero } from "@/constants/about";
+import ScrollDown from "./ScrollDown";
 
 const Landing = () => {
   const { heading, heading2, content } = hero;
@@ -15,6 +16,7 @@ const Landing = () => {
         <p className="text-black/70 dark:text-white/70 mt-14 max-md:mt-8 text-3xl max-md:text-xl">
           {content}
         </p>
+        <ScrollDown />
       </div>
     </div>
   );

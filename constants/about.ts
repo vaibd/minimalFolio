@@ -110,7 +110,7 @@ export const socials = [
   },
   {
     name: "LinkedIn",
-    url: "https://in.linkedin.com/in/vaibhav-dalakoti-84437a194",
+    url: "https://in.linkedin.com/in/vaibhav-dalakoti-58a159221",
   },
   {
     name: "GitHub",
