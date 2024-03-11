@@ -61,10 +61,18 @@ export const tools = [
         link: "https://www.chromium.org/",
       },
       {
-        name: "GitHub",
+        name: "GitHub & Git",
         logo: "/assets/tools-logo/github.webp",
         description:
           "A provider of Internet hosting for software development and version control using Git.",
+        link: "https://github.com/",
+      },
+      {
+        name: "Vite",
+        logo: "/assets/tools-logo/vite.webp",
+        description:
+          "A build tool that aims to provide a faster and leaner development experience for modern web projects.",
+        link: "https://vitejs.dev/",
       },
     ],
   },
