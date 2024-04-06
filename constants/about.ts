@@ -10,7 +10,7 @@ export const hero = {
 export const about = {
   heading: "Hi, I am Vaibhav Dalakoti!",
   professionalInfo:
-    "A passionate Front End Engineer 🚀 having an experience of building Web applications with Reactjs and Nextjs. I enjoy creating beautiful and easy to use web applications that connect with users. I am always looking for new opportunities to grow and collaborate on exciting projects.",
+    "I enjoy creating beautiful and easy to use web applications that connect with users. I am always looking for new opportunities to grow and collaborate on exciting projects.",
   personalInfo:
     "Started my journey in Computer Science at college, quickly learning and adopting Javascript and Linux. Then decided to pursue a career in web development.",
   casualLife:
@@ -57,7 +57,7 @@ export const timeline = [
     year: 2022,
     events: [
       {
-        title: "Associate Software Engineer",
+        title: "Associate Software Engineer(2yrs+)",
         subTitle: "Soft Prodigy",
         icon: "DesktopIcon",
       },
