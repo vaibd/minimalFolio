@@ -57,7 +57,7 @@ export const timeline = [
     year: 2022,
     events: [
       {
-        title: "Associate Software Engineer(2.6yrs+)",
+        title: "Frontend Developer(2.6yrs+)",
         subTitle: "Soft Prodigy",
         icon: "DesktopIcon",
       },
