@@ -2,9 +2,9 @@ export const myName = "Vaibhav Dalakoti";
 
 export const hero = {
   heading: "Hi, I am Vaibhav.",
-  heading2: "A Front End Engineer.",
+  heading2: "A Front End & Full Stack Engineer.",
   content:
-    "As a front end engineer, my expertise lies in creating and designing outstanding digital interfaces.",
+    "As a developer, my expertise lies in creating and designing outstanding digital interfaces. Currently having ~3yrs of exp.",
 };
 
 export const about = {
