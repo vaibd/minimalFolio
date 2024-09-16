@@ -4,7 +4,7 @@ export const hero = {
   heading: "Hi, I am Vaibhav.",
   heading2: "A Front End Engineer.",
   content:
-    "As a front end engineer, my expertise lies in creating (sometimes designing) outstanding digital interfaces.",
+    "As a front end engineer, my expertise lies in creating and designing outstanding digital interfaces.",
 };
 
 export const about = {
