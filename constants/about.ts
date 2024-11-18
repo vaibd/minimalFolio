@@ -4,8 +4,10 @@ export const hero = {
   heading: "Hi, I am Vaibhav.",
   heading2: "A Front End & Full Stack Engineer.",
   content:
-    "As a developer, my expertise lies in creating and designing outstanding digital interfaces. Currently having ~3yrs of exp.",
+    "As a developer, my expertise lies in creating and designing outstanding digital interfaces. Currently having [[YEARS_OF_EXP]] of exp.",
 };
+
+export const startDate = "January 1, 2022";
 
 export const about = {
   heading: "Hi, I am Vaibhav Dalakoti!",
@@ -57,13 +59,13 @@ export const timeline = [
     year: 2022,
     events: [
       {
-        title: "Frontend Developer(2.10yrs+)",
-        subTitle: "Soft Prodigy",
+        title: "Frontend Developer",
+        subTitle: "SoftProdigy System Solutions",
         icon: "DesktopIcon",
       },
       {
         title: "Internship - ReactJS",
-        subTitle: "Soft Prodigy",
+        subTitle: "SoftProdigy System Solutions",
         icon: "DesktopIcon",
       },
     ],
@@ -73,7 +75,7 @@ export const timeline = [
     events: [
       {
         title: "Masters in Computer Applications",
-        subTitle: "Uttarakhand University",
+        subTitle: "Uttaranchal University",
         icon: "BackpackIcon",
         type: "education",
       },

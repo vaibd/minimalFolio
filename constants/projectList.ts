@@ -1,5 +1,36 @@
 export const projectList = [
   {
+    logo: "/assets/project-logo/promptOwl.webp",
+    title: "PromptOwl",
+    description:
+      "PromptOwl allows users to create, share, and discover AI prompts. Also, it can create chatbots, prompt engineering tools, prompts flows and simulate conversations.",
+    projectUrl: "https://promptowl.ai/",
+    year: "May 2024",
+    languages: [
+      {
+        name: "NextJS",
+      },
+      {
+        name: "OpenAI",
+      },
+      {
+        name: "Perplexity",
+      },
+      {
+        name: "Gemini",
+      },
+      {
+        name: "TailwindCSS",
+      },
+      {
+        name: "Shadcn",
+      },
+      {
+        name: "MongoDB",
+      },
+    ],
+  },
+  {
     logo: "/assets/project-logo/minimalfolio.webp",
     title: "MinimalFolio",
     description:
@@ -10,7 +41,6 @@ export const projectList = [
     languages: [
       {
         name: "NextJS",
-        color: "text-sky-600",
       },
     ],
   },
@@ -24,15 +54,12 @@ export const projectList = [
     languages: [
       {
         name: "ReactJS",
-        color: "text-sky-600",
       },
       {
         name: "NodeJS",
-        color: "text-sky-600",
       },
       {
         name: "MySQL",
-        color: "text-sky-600",
       },
     ],
   },
@@ -46,15 +73,12 @@ export const projectList = [
     languages: [
       {
         name: "NextJS",
-        color: "text-sky-600",
       },
       {
         name: "Ruby",
-        color: "text-sky-600",
       },
       {
         name: "EmberJS",
-        color: "text-sky-600",
       },
     ],
   },
@@ -68,15 +92,12 @@ export const projectList = [
     languages: [
       {
         name: "ReactJS",
-        color: "text-sky-600",
       },
       {
         name: "NodeJS",
-        color: "text-sky-600",
       },
       {
         name: "MongoDB",
-        color: "text-sky-600",
       },
     ],
   },
@@ -90,7 +111,6 @@ export const projectList = [
     languages: [
       {
         name: "ReactJS",
-        color: "text-cyan-600",
       },
     ],
   },
@@ -104,11 +124,9 @@ export const projectList = [
     languages: [
       {
         name: "ReactJS",
-        color: "text-sky-600",
       },
       {
         name: "NodeJS",
-        color: "text-sky-600",
       },
     ],
   },
@@ -122,15 +140,12 @@ export const projectList = [
     languages: [
       {
         name: "ReactJS",
-        color: "text-sky-600",
       },
       {
         name: "NodeJS",
-        color: "text-sky-600",
       },
       {
         name: "MongoDB",
-        color: "text-sky-600",
       },
     ],
   },

@@ -1,6 +1,5 @@
 export type Languages = {
   name: string;
-  color: string;
 };
 
 export type Project = {

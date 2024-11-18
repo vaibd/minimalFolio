@@ -5,17 +5,21 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const ScrollDown = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [hasScrolled, setHasScrolled] = useState(true);
+  console.log(hasScrolled);
 
   const toggleVisibility = () => {
     if (window.scrollY > 50) {
-      setIsVisible(true);
+      setHasScrolled(true);
     } else {
-      setIsVisible(false);
+      setHasScrolled(false);
     }
   };
 
   useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    toggleVisibility();
+
     window.addEventListener("scroll", toggleVisibility);
     return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
@@ -32,7 +36,7 @@ const ScrollDown = () => {
 
   return (
     <>
-      {!isVisible ? (
+      {hasScrolled ? null : (
         <Link
           href="#projects"
           onClick={handleScroll}
@@ -45,7 +49,7 @@ const ScrollDown = () => {
             <ChevronDownIcon className="w-8 h-8 m-auto max-md:rotate-180" />
           </p>
         </Link>
-      ) : null}
+      )}
     </>
   );
 };

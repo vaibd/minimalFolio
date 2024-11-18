@@ -1,8 +1,11 @@
-import { hero } from "@/constants/about";
+import { hero, startDate } from "@/constants/about";
 import ScrollDown from "./ScrollDown";
+import { calculateTimePassed } from "@/lib/utils";
 
 const Landing = () => {
   const { heading, heading2, content } = hero;
+  const years = calculateTimePassed(startDate);
+  const [beforeYears, afterYears] = content.split("[[YEARS_OF_EXP]]");
 
   return (
     <div className="text-center content-z-index h-dvh flex items-center">
@@ -14,7 +17,9 @@ const Landing = () => {
           {heading2}
         </h1>
         <p className="text-black/70 dark:text-white/70 mt-14 max-md:mt-8 text-3xl max-md:text-xl">
-          {content}
+          {beforeYears}
+          <strong>{years}</strong>
+          {afterYears}
         </p>
         <ScrollDown />
       </div>
