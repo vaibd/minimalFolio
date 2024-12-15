@@ -14,7 +14,7 @@ const Skills = ({ skills }: SkillsProps) => {
               alt={skill.name}
               width={50}
               height={50}
-              className="pb-2 hover:scale-110 transition duration-500 w-auto h-auto"
+              className="pb-2 hover:scale-110 transition duration-500 size-50"
             />
             <p>{skill.name}</p>
           </div>

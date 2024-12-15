@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 
 const ScrollDown = () => {
   const [hasScrolled, setHasScrolled] = useState(true);
-  console.log(hasScrolled);
 
   const toggleVisibility = () => {
     if (window.scrollY > 50) {
