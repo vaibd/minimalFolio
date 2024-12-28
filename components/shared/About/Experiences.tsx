@@ -5,10 +5,14 @@ import { ExperiencesProps } from "@/types/types";
 
 const Experiences = ({ timeline }: ExperiencesProps) => {
   return (
-    <Card className="mt-8 p-6 max-sm:p-3">
+    <Card className="p-6 max-sm:p-3 transparent-cards">
       <CardHeader className="pb-3">
-        <CardTitle className="text-xl">Experiences throughout time</CardTitle>
-        <p>Everything I&apos;ve done, over passage of time.</p>
+        <CardTitle className="heading-text">
+          Experiences throughout time
+        </CardTitle>
+        <p className="p-text">
+          Everything I&apos;ve done, over the passage of time.
+        </p>
       </CardHeader>
       <CardContent className="grid gap-1">
         {timeline.map((project, index) => (

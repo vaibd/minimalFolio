@@ -4,8 +4,10 @@ import Image from "next/image";
 
 const Skills = ({ skills }: SkillsProps) => {
   return (
-    <Card className="mt-8 p-6 max-sm:p-3 text-center">
-      <CardHeader className="text-xl pb-8 font-bold">Skills</CardHeader>
+    <Card className="p-6 max-sm:p-3 text-center transparent-cards">
+      <CardHeader>
+        <h2>Skills</h2>
+      </CardHeader>
       <CardContent className="inline-flex	flex-wrap	justify-center gap-x-7 ">
         {skills.map((skill, index) => (
           <div key={index} className="p-4 flex flex-col items-center">

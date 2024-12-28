@@ -15,7 +15,9 @@ const TimelineDate = ({ date }: { date: number }) => {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
-              <span className="px-2 background-color dim-text	">{date}</span>
+              <span className="px-2 background-color rounded-md dim-text	">
+                {date}
+              </span>
             </TooltipTrigger>
             <TooltipContent>
               <p>Start Date</p>
