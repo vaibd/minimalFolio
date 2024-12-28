@@ -1,16 +1,16 @@
 export const myName = "Vaibhav Dalakoti";
 
 export const hero = {
-  heading: "Hi, I am Vaibhav.",
+  heading: "Hi, I'm Vaibhav.",
   heading2: "A Full Stack Engineer.",
-  content:
-    "As a developer, my expertise lies in creating and designing outstanding digital interfaces. Currently having [[YEARS_OF_EXP]] of exp.",
+  content: `I'm passionate about creating and designing outstanding web apps.
+    Currently having [[YEARS_OF_EXP]] of exp.`,
 };
 
 export const startDate = "January 1, 2022";
 
 export const about = {
-  heading: "Hi, I am Vaibhav Dalakoti!",
+  heading: "I'm Vaibhav Dalakoti!",
   professionalInfo:
     "I enjoy creating beautiful and easy to use web applications that connect with users. I am always looking for new opportunities to grow and collaborate on exciting projects.",
   personalInfo:
@@ -96,7 +96,7 @@ export const timeline = [
     year: 2016,
     events: [
       {
-        title: "Senior Secondary",
+        title: "Senior Secondary (10+2)",
         subTitle: "St. Theresa Senior Secondary School",
         icon: "BackpackIcon",
         type: "education",

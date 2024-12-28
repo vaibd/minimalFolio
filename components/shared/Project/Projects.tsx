@@ -4,7 +4,7 @@ import { projectList } from "@/constants/projectList";
 const Projects = () => {
   return (
     <>
-      <h1 id="projects" className="mt-6 heading-text mb-3 text-center">
+      <h1 id="projects" className="mt-6 mb-3 text-center">
         Projects
       </h1>
       <p className="mb-16 text-center">

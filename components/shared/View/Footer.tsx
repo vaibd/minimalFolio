@@ -1,5 +1,4 @@
 import { myName, socials } from "@/constants/about";
-import React from "react";
 import { GetIcons } from "./IconProvider";
 
 const Footer = () => {

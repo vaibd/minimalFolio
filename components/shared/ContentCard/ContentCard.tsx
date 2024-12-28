@@ -11,15 +11,11 @@ import LinkWrapper from "./LinkWrapper";
 export function ContentCard({ logo, title, description, link }: Tools) {
   return (
     <LinkWrapper link={link}>
-      <Card
-        className="custom-hover inline-block mb-6 
-    hover:scale-105 transition duration-500
-    "
-      >
+      <Card className="inline-block mb-6 hover:scale-105 transition duration-500 transparent-cards">
         <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
           <div className="space-y-1">
-            <CardTitle> {title} </CardTitle>
-            <CardDescription>{description}</CardDescription>
+            <CardTitle className="heading-text"> {title} </CardTitle>
+            <CardDescription className="p-text">{description}</CardDescription>
           </div>
           <div className="h-full justify-self-end">
             {logo ? (

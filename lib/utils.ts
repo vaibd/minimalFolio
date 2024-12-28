@@ -13,7 +13,7 @@ export const calculateTimePassed = (startDate: string) => {
   const months = now.getMonth() - start.getMonth();
 
   let adjustedYears = years;
-  let adjustedMonths = months + 2;
+  let adjustedMonths = months + 1;
 
   if (adjustedMonths < 0) {
     adjustedYears = years - 1;

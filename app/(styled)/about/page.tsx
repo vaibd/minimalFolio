@@ -10,13 +10,13 @@ export const metadata: Metadata = {
 
 const About = () => {
   return (
-    <>
+    <section className="space-y-6">
+      <h1 className="mt-6 mb-10 text-center"> {about.heading}</h1>
+
       <Introduction about={about} />
-
       <Skills skills={skills} />
-
       <Experiences timeline={timeline} />
-    </>
+    </section>
   );
 };
 

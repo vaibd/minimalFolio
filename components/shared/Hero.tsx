@@ -9,7 +9,7 @@ const Landing = () => {
 
   return (
     <div className="text-center content-z-index h-dvh flex items-center">
-      <div className="content-z-index relative">
+      <div className="content-z-index relative opacity-0 animate-fadeIn">
         <h1 className="text-black/70 dark:text-white/70 text-9xl max-md:text-6xl font-bold mb-4">
           {heading}
         </h1>
@@ -21,8 +21,8 @@ const Landing = () => {
           <strong>{years}</strong>
           {afterYears}
         </p>
-        <ScrollDown />
       </div>
+      <ScrollDown />
     </div>
   );
 };

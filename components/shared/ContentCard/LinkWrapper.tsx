@@ -6,7 +6,11 @@ type LinkWrapperProps = {
 };
 
 const LinkWrapper = ({ children, link }: LinkWrapperProps) => {
-  return <div onClick={() => window.open(link, "_blank")}>{children}</div>;
+  return (
+    <div className="cursor-pointer" onClick={() => window.open(link, "_blank")}>
+      {children}
+    </div>
+  );
 };
 
 export default LinkWrapper;

@@ -40,13 +40,12 @@ export function ProjectCard({
   return (
     <Card
       className="custom-hover inline-block mb-6 
-    hover:scale-105 transition duration-500
-    "
+    hover:scale-105 transition duration-500 transparent-cards dim-text"
     >
       <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
         <div className="space-y-1">
           <CardTitle> {title} </CardTitle>
-          <CardDescription>{description}</CardDescription>
+          <CardDescription className="p-text">{description}</CardDescription>
         </div>
         <div className="h-full justify-self-end">
           {logo ? (
@@ -85,14 +84,14 @@ export function ProjectCard({
 
           <div className="flex items-center">
             {gitHubUrl ? (
-              <Link href={gitHubUrl} target="_blank">
+              <Link href={gitHubUrl} target="_blank" prefetch={false}>
                 <Button variant="ghost" size="icon">
                   <GitHubLogoIcon />
                 </Button>
               </Link>
             ) : null}
             {projectUrl ? (
-              <Link href={projectUrl} target="_blank">
+              <Link href={projectUrl} target="_blank" prefetch={false}>
                 <Button variant="ghost" size="icon">
                   <GlobeIcon />
                 </Button>

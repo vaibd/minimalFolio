@@ -106,7 +106,7 @@ export const projectList = [
     title: "Baller",
     description:
       "All Ball is a user-friendly app connecting coaches, players, and league operators. Coaches create teams, schedule practices, and invite players. The app simplifies RSVPs for events and offers a roster view to track team members efficiently.",
-    projectUrl: "https://admin.allballapp.com/",
+    projectUrl: "https://www.allballapp.com/",
     year: "Aug 2023",
     languages: [
       {
@@ -132,10 +132,10 @@ export const projectList = [
   },
   {
     logo: "/assets/project-logo/ivu.webp",
-    title: "iVu Admin Panel",
+    title: "iVu Admin Panel & Landing page",
     description:
       "Admin panel to manage templates, orders, users for the iVu mobile app. The iVu app is a property information gathering application that enables users to request photos or pose questions about a specific property. Freelancers can fulfil these requests by visiting the property and collecting information on behalf of the user.",
-    projectUrl: "http://ivuinspections.com/login",
+    projectUrl: "https://ivuinspections.com/",
     year: "Dec 2023",
     languages: [
       {
