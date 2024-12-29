@@ -25,13 +25,13 @@ export function ModeToggle() {
             variant="ghost"
             size="icon"
             onClick={() => setTheme(toggleTheme(theme))}
-            className="rounded-full custom-hover"
+            className="rounded-full custom-hover "
           >
-            <MoonIcon className="block dark:hidden h-[1.23rem] w-[1.23rem] text-black" />
-            <SunIcon className="hidden dark:block h-[1.23rem] w-[1.23rem] text-white" />
+            <MoonIcon className="block dark:hidden h-[1.23rem] w-[1.23rem] text-black active:rotate-12 hover:-rotate-12" />
+            <SunIcon className="hidden dark:block h-[1.23rem] w-[1.23rem] text-white active:rotate-12 hover:-rotate-12" />
           </Button>
         </TooltipTrigger>
-        <TooltipContent>
+        <TooltipContent className="bg-white dark:bg-black">
           <p>Switch to {toggleTheme(theme)} mode</p>
         </TooltipContent>
       </Tooltip>
