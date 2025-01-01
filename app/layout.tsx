@@ -8,7 +8,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Analytics } from "@vercel/analytics/react";
 import { siteConfig } from "@/config/site";
 import type { Viewport } from "next";
-import BackgroundImage from "@/components/shared/Background/BackgroundImage";
+import BackgroundAura from "@/components/shared/Background/BackgroundImage";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -70,21 +70,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${poppins.className} bg-color relative`}>
+      <body className={`${poppins.className} relative`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          <BackgroundImage />
+          <BackgroundAura />
           <Header />
           <main className="wrapper flex-center flex-col content-z-index">
             {children}
             <Analytics />
           </main>
-          <Toaster />
           <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

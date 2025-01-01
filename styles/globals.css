@@ -24,7 +24,6 @@ html {
 
   p {
     @apply dim-text;
-    /* color: #1e767b; */
   }
 }
 

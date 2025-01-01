@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       colors: {
-        primary: "#1e767b",
+        primary: "#239fa6",
         primaryDim: "#222826",
       },
       keyframes: {
