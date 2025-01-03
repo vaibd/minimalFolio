@@ -3,12 +3,15 @@ export const projectList = [
     logo: "/assets/project-logo/promptOwl.webp",
     title: "PromptOwl",
     description:
-      "PromptOwl allows users to create, share, and discover AI prompts. Also, it can create chatbots, prompt engineering tools, prompts flows and simulate conversations.",
+      "PromptOwl allows users to create, share, and discover AI prompts. Also, it can create chatbots, prompt engineering tools, prompts flows and simulate conversations with langchain.",
     projectUrl: "https://promptowl.ai/",
     year: "May 2024",
     languages: [
       {
         name: "NextJS",
+      },
+      {
+        name: "Langchain"
       },
       {
         name: "OpenAI",
